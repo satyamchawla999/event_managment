@@ -1,0 +1,53 @@
+<!-- eventBookingTemplate.html -->
+<html>
+<head>
+    <style>
+        /* Add your CSS styles here for the email template */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            border: 2px solid blue;
+            background-color: #f0f0f0;
+            color: blue;
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .confirmation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Event Booking Confirmation</h1>
+        </div>
+        <div class="content">
+            <p>Hello [USER_NAME],</p>
+            <p>Thank you for booking the following event:</p>
+            <p><strong>Event Name:</strong> [EVENT_NAME]</p>
+            <p><strong>Event Place:</strong> [EVENT_PLACE]</p>
+            <p><strong>Event Date:</strong> [EVENT_DATE]</p>
+            <p>Your booking details:</p>
+            <p><strong>Roll Number:</strong> [USER_ROLLNO]</p>
+            <p>We look forward to seeing you at the event!</p>
+            <p class="confirmation">Event Booked Successfully</p>
+        </div>
+    </div>
+</body>
+</html>

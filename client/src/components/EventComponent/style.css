@@ -1,0 +1,5 @@
+/* Custom CSS class to set the width to 100% for the DatePicker */
+.react-datepicker-wrapper {
+    width: 100% !important;
+    color: red;
+  }
